@@ -1,13 +1,13 @@
-## The Shape of Metadata
+# The Shape of Metadata
 This readme file was generated on 2026-09-21 by Maria Juliana Rodriguez-Cubillos
 
-# GENERAL INFORMATION
+## GENERAL INFORMATION
 
 - Date of data collection: June 2025
 - Information about funding sources that supported the collection of the data: UK Research and Innovation - EASTBIO DTPBB/J01446X/1
 
 
-# SHORT DESCRIPTION
+### SHORT DESCRIPTION
 
 Ensuring the availability and accessibility of research data is fundamental to advancing knowledge. This goal has been codified in the FAIR principles (Findable, Accessible, Interoperable, and Reusable) for scientific data management. Accurate documentation of studies—commonly referred to as metadata—is indispensable for meeting these principles. However, entries in deposition databases that secure the research record often contain inadequate, repetitive, or incomplete descriptions.
 
@@ -17,7 +17,7 @@ In general, repositories exhibit distinct distributions of word count and inform
 
 We develop a scalable analysis framework that utilises word counts, named-entity recognition, and entity-derived information density to examine the current state of metadata in multiple repositories, creating a broadly applicable framework for metadata assessment and evaluation. This is the dataset from the three listed repositories associated with the paper. 
 
-# SHARING/ACCESS INFORMATION
+### SHARING/ACCESS INFORMATION
 
 - Licenses/restrictions placed on the data: CC BY 4.0
 - Links to publications that cite or use the data: https://www.biorxiv.org/content/10.64898/2026.09.08.749906v1
@@ -25,7 +25,7 @@ We develop a scalable analysis framework that utilises word counts, named-entity
 - Recommended citation for this dataset: Rodriguez-Cubillos, M. J., Zieliński, T., Swedlow, J., Simpson, I., & Millar, A. (2026). Dataset from the Paper: "The Shape of Biological Metadata: Measuring Repository Richness with Entity-Based NLP Metrics" [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22229074
 
 
-# DATA & FILE OVERVIEW
+## DATA & FILE OVERVIEW
 
 File List: 
 
@@ -44,7 +44,7 @@ The columns used for the analysis were:
 - "ratio_entites_per_word": Number of entities per word from the list of all entities.
 
 
-# METHODOLOGICAL INFORMATION
+## METHODOLOGICAL INFORMATION
 
 Description of methods used for collection/generation of data:
 Three independent datasets were used during the study: BioDare2 with 20,471 entries, DataShare with 7,754 entries and IDR with 132 entries. Each one was processed separately, but the same processing steps were applied to each. First, the files were acquired from the repositories. Then, the stop words and special characters were removed, all capital letters were replaced with lowercase, and the words were lemmatised.
